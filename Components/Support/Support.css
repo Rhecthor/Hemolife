@@ -1,0 +1,34 @@
+.support__cta {
+  background: #fff;
+  color: #e53935;
+  border: 1px solid #e53935;
+  padding: 5px;      /* Make button square */
+  width: 600px;           /* Set a fixed width for square look */
+  height: 40px;         /* Set a fixed height for square look */
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 400;
+  cursor: pointer;
+  margin-left: 600px;
+  margin-right: 300px;
+  margin-bottom: 20px;
+  transition: background 0.2s;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.support__cta:hover{
+    background: #e53935;
+    color: white;
+}
+
+.support h1{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 50px;
+    color: #e53935;
+    font-weight: 100;
+}
+
